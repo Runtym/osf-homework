@@ -1,6 +1,11 @@
 package kimbongkook;
 
 public class H1Work {
-	// 포문을 초기값 10 부터 100까지 
-		// 10, 20, 30, 40 씩 출력하는 코드를 완성해주세요.
+	public static void main(String[] args) {
+		for(int i=10; i<=100; i++) {
+			if(i%10==0) {
+				System.out.println(i);
+			}
+		}	
+	}
 }
