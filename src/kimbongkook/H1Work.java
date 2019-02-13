@@ -6,6 +6,6 @@ public class H1Work {
 			if(i%10==0) {
 				System.out.println(i);
 			}
-		}	
+		}
 	}
 }
