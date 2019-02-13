@@ -1,8 +1,8 @@
 package homework;
 
 public class H1Work {
-
-	// 포문을 초기값 10 부터 100까지 
-	// 10, 20, 30, 40 씩 출력하는 코드를 완성해주세요.
-	// 아 문제가 너무 쉬워서 문제 바꿈.
+	// 기한은 2019-02-18 까지
+	// 캡쳐 1 : jdk 설치 후 eclipse 실행화면
+	// 캡쳐 2 : oracle 11 g express 설치 후
+	//          QueryBox 실행 및 접속 화면
 }
