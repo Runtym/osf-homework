@@ -15,7 +15,7 @@ class MomClass{
 
 public class OverRiding extends MomClass{
 	public void printName() {
-		System.out.println("나는 MomClass가 아니야. ");
+		System.out.println("나는 MomClass가 아니야. OverRiding Class야");
 	}	
 	
 	public void printMomName() {
