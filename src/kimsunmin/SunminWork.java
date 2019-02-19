@@ -11,8 +11,6 @@ public class SunminWork {
 			System.out.println("궁금한 것을 고르시오.(숫자만 입력 해 주세요.) 1. 오버라이딩, 2. 오버로딩 3.이제 다 알아 ㅃ2(나가기)");
 			Scanner scan = new Scanner(System.in);
 			String input =scan.nextLine();
-
-			
 			if(input.equals("1")) {
 				System.out.println("오버라이딩을 선택하셨습니다.");
 				System.out.println("자! 오버라이딩을 배우기 전에 '오버라이딩'이라는 단어의 뜻을 먼저 알아보아야할 것 같습니다.");
