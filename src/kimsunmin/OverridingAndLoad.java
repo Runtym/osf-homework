@@ -3,10 +3,10 @@ package kimsunmin;
 import java.util.Scanner;
 
 
-public class SunminWork {
+public class OverridingAndLoad {
 
 	public static void main(String[] args) {
-		for(int i =0;i<99;i++) {
+		for(int i =0;i<9;i++) {
 
 			System.out.println("궁금한 것을 고르시오.(숫자만 입력 해 주세요.) 1. 오버라이딩, 2. 오버로딩 3.이제 다 알아 ㅃ2(나가기)");
 			Scanner scan = new Scanner(System.in);
@@ -58,7 +58,7 @@ public class SunminWork {
 			}else if(input.equals("3")) {
 				System.out.println("올~ ");
 				scan.close();
-				i=100;
+				i=10;
 			}else {
 				System.out.println("숫자만 입력 해 주세요. 1, 2, 3 !");
 				i--;
