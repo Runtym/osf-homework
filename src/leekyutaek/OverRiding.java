@@ -28,7 +28,7 @@ public class OverRiding extends Father {
 	}
 
 	void work() {
-		System.out.println("나는 두번째야.");
+		System.out.println("나는 두번째야. 그래도 내가 나올거야!");
 	}
 
 	public static void main(String[] args) {
