@@ -4,7 +4,7 @@ package choiinkyung;
 public class Bus extends Car {
 
 	public void run() {
-//		부모의 메소드가 없어지는게 X 
+//부모의 메소드가 없어지는게 X 
 // super.run();
 		System.out.println("Bus의 run 메소드");
 	}
