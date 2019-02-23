@@ -3,7 +3,7 @@ package leekyutaek;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class BassBall4 {
+public class H3Work {
 	public static void main(String[] args) {
 		ArrayList<Integer> array4 = new ArrayList<>();
 		for (int i = 0; i < 4; i++) {
