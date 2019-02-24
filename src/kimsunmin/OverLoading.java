@@ -4,7 +4,7 @@ public class OverLoading {
 
 	
 	OverLoading(){
-		System.out.println("나도 파라미터좀....주라...꼭 그렇게... 다 가져가야만 속이 후련했냐!");
+		System.out.println("나도 파라미터좀....주라...");
 	}
 	
 	OverLoading(int oNum){
