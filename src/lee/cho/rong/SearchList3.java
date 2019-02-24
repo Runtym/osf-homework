@@ -10,7 +10,7 @@ public class SearchList3 {
 	public static void main(String[] args) {
 		ArrayList<Integer> numList = new ArrayList<>();
 		for (int i = 0; i < 4; i++) {
-			int num = (int) (Math.random() * 9) + 1;
+			int num = (int) (Math.random() * 9);
 			if (numList.indexOf(num) == -1) {
 				numList.add(num);
 			} else {
