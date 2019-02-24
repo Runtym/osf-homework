@@ -115,6 +115,6 @@ public class BaseballGame {
 		}
 		System.out.println(name + " 님이 " + tryCount + "회 만에 COMPUTER를 이겼습니다.");
 		System.out.println("( " + name + " 님이 입력 하신 숫자가 COMPUTER의 숫자인 " + numList + " 와 완벽히 일치 하였습니다. )");
-		
+		nameScan.close();
 	}
 }
