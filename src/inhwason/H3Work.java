@@ -60,7 +60,6 @@ public class H3Work
 			{
 				System.out.println(sCnt + "S " + bCnt + "B ");
 			}
-		
 		}
 		System.out.println("game over");
 	}
