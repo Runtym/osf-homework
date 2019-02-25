@@ -3,7 +3,7 @@ package nohtaeun;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class H1Work {
+public class H3Work {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> numList = new ArrayList<>();
@@ -16,23 +16,36 @@ public class H1Work {
 			}
 		}
 		Scanner scan = new Scanner(System.in);
-		System.out.println("숫자 4개를 입력 해주세요.");
+		System.out.println(", 기준으로 숫자 4개를 입력 해주세요.");
 		String strNum = scan.nextLine();
-		String[] strNums = strNum.split(strNum);
+		scan.close();
+		String[] strNums = strNum.split(",");
 		ArrayList<Integer> strList = new ArrayList<>();
 		for (int i = 0; i < strNums.length; i++) {
-			int num = Integer.parseInt(strNums[i]);
-			strList.add(num);
+			strList.add(Integer.parseInt(strNums[i]));
+			
+			
 		}
-		int num = 0;
-		for(int i=0;i<strList.size();i++) {
-			int ranNum =(int)(Math.random()*9)+1;
-			if(numList.indexOf(ranNum)!=-1) {
-				num++;
+		System.out.println("입력한 수 : "+ strList);
+		
+		int scnt=0;
+		int bcnt=0;
+		
+		for(int i = 0;i<numList.size();i++) {
+			if(numList.indexOf(strList.get(i))!=-1) {
+				if(numList.get(i)==strList.get(i)) {
+					scnt++;
+				}
 			}
-			System.out.println("맞춘 개수는" + num);
+				
+				
 		}
-
+		System.out.println("맞춘 갯수는" + scnt + "개 입니다.");	
 	}
 
 }
+//
+//
+//
+
+///
