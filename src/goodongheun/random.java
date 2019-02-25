@@ -31,6 +31,7 @@ public class random {;
 		int random1 = 0;
 		int random2 = 0;
 		for(int i=0;i<strNums.length;i++) {
+			//해당 num은 배열로 indexOf시에 무조건 -1
 			if(random.indexOf(num)!=-1) {
 				random1++;
 			}else if(i==random.indexOf(num[i])){
