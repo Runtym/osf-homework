@@ -2,7 +2,8 @@ package kimsunmin;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-//version 0.2
+// version 0.2
+// Integer 외 다른 타입 입력 시 오류 처리
 
 
 public class BaseballGame {
