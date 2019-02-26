@@ -25,7 +25,7 @@ public class BaseBall {
 			int num = Integer.parseInt(numStrs[i]);
 			sList.add(num);
 		}
-		int j = 0;
+	int j = 0;
 	int a = 0;
 	int b = 0;
 	for(j = 0; j < sList.size(); j++){
