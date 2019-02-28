@@ -12,7 +12,7 @@ public class BaseBallH3Work {
 		ArrayList<Integer> numList = new ArrayList<>();
 		
 		for(int i=0;i<size;i++) {
-			int ranNum = (int)(Math.random()*9+1);
+			int ranNum = (int)(Math.random()*10);
 			if(numList.indexOf(ranNum)!=-1) {
 				i--;
 			}else {
