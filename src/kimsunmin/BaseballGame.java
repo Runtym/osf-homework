@@ -2,8 +2,13 @@ package kimsunmin;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+// version 0.2
+
+
 
 public class BaseballGame {
+	
+	
 	public static int arrayIndexOf(int[] arrNum, int num) {
 		for (int i = 0; i < arrNum.length; i++) {
 			if (arrNum[i] == num) {
@@ -12,7 +17,7 @@ public class BaseballGame {
 		}
 		return -1;
 	}
-
+	
 	public static String passError(String str) {
 		// 콤마(,)를 두 번 입력하였을 경우에 에러를 방지하기 위한 처리
 		if (str.indexOf(",,") != -1) {
@@ -24,7 +29,6 @@ public class BaseballGame {
 		}
 		return str;
 	}
-
 
 
 	public static void main(String[] args) {
@@ -63,6 +67,8 @@ public class BaseballGame {
 			String[] userNums = userInput.split(",");
 			// 사용자로부터 입력 받은 수가 4개가 아닌 경우 오류 메세지를 출력하고,
 			// while문의 가장 윗 부분으로 처리 순서 강제변경.
+			
+			
 			if (userNums.length != 4) {
 				System.out.println("입력에 오류가 발생하였습니다. 다음과 같이 입력 해 주세요. ( 입력 예시 :  1,2,3,4 )");
 				continue;
@@ -72,8 +78,13 @@ public class BaseballGame {
 			// 사용자로 부터 입력 받은 userNums를 integer array type의 uNums로 저장.
 			int[] uNums = new int[4];
 			for (int i = 0; i < uNums.length; i++) {
-				uNums[i] = Integer.parseInt(userNums[i]);
-
+				try {
+					uNums[i] = Integer.parseInt(userNums[i]);
+				}catch(Exception e) {
+					System.out.println("입력에 오류가 발생하였습니다. 숫자를 입력 해 주세요.");
+					errorCount = errorCount + 1;
+					break;
+				}
 				// 사용자로부터 입력 받은 숫자 중에 하나라도 1부터 9사이의 숫자가 아닐 경우
 				// while문의 가장 윗 부분으로 처리 순서 강제변경.
 				if (uNums[i] < 1 || uNums[i] > 9) {
@@ -87,16 +98,17 @@ public class BaseballGame {
 					errorCount = errorCount + 1;
 				}
 			}
+			
 			if(errorCount>0) {
 				continue;
 			}
-
+			
 			// strike와 ball의 recount를 위헤 0으로 변경
 			strikeCount = 0;
 			ballCount = 0;
-
 			// uNums로 받은 4개의 사용자 숫자와 random number 4개를 비교 후
 			// strikeCount와 ballCount의 수를 변경
+			
 			for (int i = 0; i < numList.size(); i++) {
 				if (numList.indexOf(uNums[i]) != -1) {
 					if (numList.indexOf(uNums[i]) == i) {

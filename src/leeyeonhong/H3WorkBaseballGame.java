@@ -3,11 +3,11 @@ package leeyeonhong;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Searhlist {
+public class H3WorkBaseballGame {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> AB = new ArrayList<>();
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 4; i++) {
 			int ranNum = (int) (Math.random()*10);
 
 			if (AB.indexOf(ranNum) == -1) { 
