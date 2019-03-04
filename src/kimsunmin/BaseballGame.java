@@ -17,7 +17,6 @@ public class BaseballGame {
 		}
 		return -1;
 	}
-
 	
 	public static String passError(String str) {
 		// 콤마(,)를 두 번 입력하였을 경우에 에러를 방지하기 위한 처리
