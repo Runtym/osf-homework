@@ -1,4 +1,4 @@
-package kimeunmi;
+package kimeunmi.p20190225;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ public class BaseBallGame {
 	public static void main(String[] args) {
 		ArrayList<Integer> numList = new ArrayList<>();
 		for(int i=0;i<4;i++) {
-			int ranNum = (int)(Math.random()*9+1);
+			int ranNum = (int)(Math.random()*10);
 			if(numList.indexOf(ranNum)==-1) {
 				numList.add(ranNum);
 			}else {
@@ -42,7 +42,7 @@ public class BaseBallGame {
 			if(s==4) {
 				System.out.println("Nice~~!!!");
 			}
-
+			
 		}
 		
  	}
