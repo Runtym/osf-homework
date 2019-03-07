@@ -1,4 +1,4 @@
-package leekyutaek;
+package leekyutaek.p20190220;
 
 class Mother {
 	Mother() {
