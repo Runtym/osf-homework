@@ -1,4 +1,4 @@
-package inhwason;
+package soninhwa;
 
 public class H1Work {
 

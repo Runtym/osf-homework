@@ -1,4 +1,4 @@
-package leesoobin;
+package leesoobin.p20190225;
 
 import java.util.Scanner;
 
