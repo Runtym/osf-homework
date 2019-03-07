@@ -1,8 +1,8 @@
-package soninhwa;
+package soninhwa.p20190225;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class H3Work 
-{
+{   
 	public static void main(String[] args) 
 	{
 		ArrayList<Integer> numList = new ArrayList<>();
@@ -60,7 +60,7 @@ public class H3Work
 			{
 				System.out.println(sCnt + "S " + bCnt + "B ");
 			}
-		}
+		}  
 		System.out.println("game over");
 	}
 }
