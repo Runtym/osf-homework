@@ -1,4 +1,4 @@
-package kimsiyoon;
+package kimsiyoon.p20190220;
 
 class Mom {
 	//메소드명,매개변수,리턴타입 이 같아야함
