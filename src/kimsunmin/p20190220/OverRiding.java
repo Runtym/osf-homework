@@ -1,4 +1,4 @@
-package kimsunmin;
+package kimsunmin.p20190220;
 
 class MomClass{
 	String name = "MomClass";
