@@ -1,4 +1,4 @@
-package kimsunmin;
+package kimsunmin.p20190225;
 
 import java.util.ArrayList;
 import java.util.Scanner;
