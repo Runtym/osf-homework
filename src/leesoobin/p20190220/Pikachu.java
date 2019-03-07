@@ -1,4 +1,4 @@
-package leesoobin;
+package leesoobin.p20190220;
 
 public class Pikachu extends Raichu{
 	String name;
