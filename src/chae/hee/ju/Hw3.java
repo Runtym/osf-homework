@@ -8,7 +8,7 @@ public class Hw3 {
 	public static void main(String [] args) {
 		ArrayList<Integer> al = new ArrayList<>();
 		for(int i=0;i<4;i++) {
-			int ranNum = (int)(Math.random()*9);
+			int ranNum = (int)(Math.random()*10);
 		if(al.indexOf(ranNum)==-1) {
 			al.add(ranNum);
 		}else {
