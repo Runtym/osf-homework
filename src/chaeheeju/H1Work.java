@@ -1,4 +1,4 @@
-package chae.hee.ju;
+package chaeheeju;
 
 public class H1Work {
 
