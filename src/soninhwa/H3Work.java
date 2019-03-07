@@ -1,4 +1,4 @@
-package inhwason;
+package soninhwa;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class H3Work 

@@ -1,4 +1,4 @@
-package leekyutaek;
+package leekyutaek.p20190225;
 
 import java.util.ArrayList;
 import java.util.Scanner;

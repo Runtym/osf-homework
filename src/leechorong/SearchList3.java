@@ -1,4 +1,4 @@
-package lee.cho.rong;
+package leechorong;
 
 import java.util.ArrayList;
 import java.util.Scanner;

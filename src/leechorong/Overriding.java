@@ -1,4 +1,4 @@
-package lee.cho.rong;
+package leechorong;
 
 public class Overriding {
 

@@ -1,4 +1,4 @@
-package chae.hee.ju;
+package chaeheeju;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ public class Hw3 {
 	public static void main(String [] args) {
 		ArrayList<Integer> al = new ArrayList<>();
 		for(int i=0;i<4;i++) {
-			int ranNum = (int)(Math.random()*10);
+			int ranNum = (int)(Math.random()*9);
 		if(al.indexOf(ranNum)==-1) {
 			al.add(ranNum);
 		}else {
