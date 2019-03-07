@@ -1,4 +1,4 @@
-package kimsiyoon;
+package kimsiyoon.p20190220;
 
 public class Ooo {
 	//같은 클래스에서 같은 메소드이름을 사용.
