@@ -1,4 +1,4 @@
-package kimeunsong;
+package kimeunsong.p20190225;
 
 import java.util.ArrayList;
 import java.util.Scanner;
