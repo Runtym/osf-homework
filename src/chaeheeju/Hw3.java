@@ -1,4 +1,4 @@
-package chae.hee.ju;
+package chaeheeju;
 
 import java.util.ArrayList;
 import java.util.Scanner;
