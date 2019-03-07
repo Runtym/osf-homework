@@ -1,4 +1,4 @@
-package choiinkyung;
+package choiinkyung.p20190220;
 
 //Car 를 상속받는 Bus 클래스 
 public class Bus extends Car {

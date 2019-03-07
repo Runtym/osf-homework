@@ -1,4 +1,4 @@
-package choiinkyung;
+package choiinkyung.p20190220;
 
 public class H2Work {
 //오버로딩 : 매개변수의 수, 타입이 다른 경우 동일한 이름으로 메소드를 여러개 정의 할 수 있다.
