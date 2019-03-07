@@ -2,7 +2,7 @@ package soninhwa.p20190225;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class H3Work 
-{
+{   
 	public static void main(String[] args) 
 	{
 		ArrayList<Integer> numList = new ArrayList<>();
