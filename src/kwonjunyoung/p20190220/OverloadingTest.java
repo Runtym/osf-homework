@@ -1,4 +1,4 @@
-package kwonjunyoung;
+package kwonjunyoung.p20190220;
 
 class Dog2 {
 	public void bark() {
