@@ -1,4 +1,4 @@
-package homework;
+package homework.p20190218;
 
 public class H1Work {
 	// 기한은 2019-02-18 까지
