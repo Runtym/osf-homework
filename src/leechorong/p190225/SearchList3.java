@@ -1,4 +1,4 @@
-package leechorong;
+package leechorong.p190225;
 
 import java.util.ArrayList;
 import java.util.Scanner;
