@@ -3,5 +3,5 @@
 <%request.getAttribute("msg");%>
 <%request.setAttribute("message","response");    %>
 <script>
-	alert("${msg}");
+	alert("${messge}");
 </script>
