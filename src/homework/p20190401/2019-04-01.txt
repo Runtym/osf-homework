@@ -1,7 +1,7 @@
 아래의 주제중에 1개를 선정하여 그에 관련하여 
 발표준비(PPT필수)를 해오시면 됩니다.
 
-1. Collection Framework(List, Map, Set)
-2. JSP 내장객체(어트리뷰트를 가질수 있는)와 스코프
-3. Servlet과 RequestDispatcher
-4. AJAX
+1. Collection Framework(List, Map, Set) 강영준
+2. JSP 내장객체(어트리뷰트를 가질수 있는)와 스코프 이연홍
+3. Servlet과 RequestDispatcher 채희주
+4. AJAX 이수빈, 김은송, 이규택, 김은미
