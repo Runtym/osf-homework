@@ -1,4 +1,4 @@
-package kwonjunyoung.p201902225;
+package kwonjunyoung.p20190225;
 
 import java.util.ArrayList;
 import java.util.Scanner;
